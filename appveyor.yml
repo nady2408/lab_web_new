@@ -17,9 +17,9 @@ environment:
 
 install:
   # We need wheel installed to build wheels
- - "%PYTHON%\\python.exe -m pip3 install wheel
+  - "%PYTHON%\\python.exe -m pip3 install wheel
 #  - "%PYTHON%\\python.exe -m pip3 install flask"
- - pip3 install flask
+  - pip3 install flask
 build: off
 
 test_script:
